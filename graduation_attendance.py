@@ -18,9 +18,9 @@ def get_graduation_absent_prob(n):
 
     """
     if n < 4:
-        return 2 ** (n-1)
+        return 2 ** (n - 1)
     if n == 4:
-        return (2 ** (n-1)) - 1
+        return (2 ** (n - 1)) - 1
     if n in miss:
         return miss[n]
     else:
